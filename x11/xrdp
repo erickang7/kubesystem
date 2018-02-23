@@ -1,0 +1,12 @@
+sudo apt-get update
+sudo apt-get install xrdp
+sudo apt-get install xfce4
+
+sudo apt-get install xfce4-terminal gnome-icon-theme-full tango-icon-theme
+
+echo xfce4-session >~/.xsession
+
+sudo nano /etc/xrdp/startwm.sh
+#add startxfce4
+
+sudo service xrdp restart

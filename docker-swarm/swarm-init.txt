@@ -1,0 +1,9 @@
+#!/bin/bash
+#init swarm
+docker swarm init --advertise-addr 10.0.8.77
+
+docker info
+
+docker node ls
+
+
